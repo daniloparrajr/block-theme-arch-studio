@@ -50,6 +50,8 @@
 			]
 		},
 		"typography": {
+			"defaultFontSizes": false,
+			"dropCap": false,
 			"fontFamilies": [
 				{
 					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
@@ -80,7 +82,45 @@
 					"slug": "league-spartan"
 				}
 			],
-			"fontSizes": []
+			"fontSizes": [
+				{
+					"name": "Body",
+					"size": "18px",
+					"slug": "body"
+				},
+				{
+					"name": "Medium",
+					"size": "32px",
+					"slug": "md"
+				},
+				{
+					"fluid": {
+						"max": "72px",
+						"min": "48px"
+					},
+					"name": "Large",
+					"size": "72px",
+					"slug": "lg"
+				},
+				{
+					"fluid": {
+						"max": "96px",
+						"min": "48px"
+					},
+					"name": "Extra Large",
+					"size": "96px",
+					"slug": "xl"
+				},
+				{
+					"fluid": {
+						"max": "250px",
+						"min": "120px"
+					},
+					"name": "2XL",
+					"size": "250px",
+					"slug": "2xl"
+				}
+			]
 		},
 		"useRootPaddingAwareAlignments": true
 	},
